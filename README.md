@@ -36,8 +36,8 @@ Rangkaian ada di [folder skematik](/Skematik/). Tapi yang esp belum tahu aplikas
     b. Pilih board sesuai dengan mikrokontroler yang akan dipakai
     c. Gunakan Framework **Arduino**
 
-    > [!NOTE]
-    > Sebenarnya, langkah ketiga itu untuk menginisialisasi file `platformio.ini`, sehingga tidak akan terlalu memengaruhi kode (kecuali untuk environment yang akan digunakan)
+> [!NOTE]
+> Sebenarnya, langkah ketiga itu untuk menginisialisasi file `platformio.ini`, sehingga tidak akan terlalu memengaruhi kode (kecuali untuk environment yang akan digunakan)
 4. Copy paste kode sesuai dengan rangkaian
 > [!WARNING]
 > teliti di baudrate
