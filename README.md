@@ -21,9 +21,11 @@ Rangkaian ada di [folder skematik](/Skematik/). Tapi yang esp belum tahu aplikas
 * Arduino, STM32, dan HC-SR04 bisa lihat di board/komponen
 
 * [ESP32](https://docs.espressif.com/projects/esp-idf/en/v5.1/esp32/_images/esp32-devkitC-v4-pinout.png) agak spesial karena board nya minim info pin PWM
+
 ![Pinout ESP32](https://docs.espressif.com/projects/esp-idf/en/v5.1/esp32/_images/esp32-devkitC-v4-pinout.png)
 
 * [PIR Sensor](https://cdn.shopify.com/s/files/1/0300/6424/6919/files/HC-SR501-Sensor.jpg?v=1588870286) juga minim info
+
 ![Sensor PIR](https://cdn.shopify.com/s/files/1/0300/6424/6919/files/HC-SR501-Sensor.jpg?v=1588870286)
 
 
@@ -32,12 +34,16 @@ Rangkaian ada di [folder skematik](/Skematik/). Tapi yang esp belum tahu aplikas
 1. Instal VS Code sekaligus Ekstensi PlatformIO, lalu Klik logo PlatformIO
 2. Buka menu (QUICK ACCESS > PIO Home > Open)
 3. Buat *New Project* 
-    a. Isi *Project Name* sesuai dengan rangkaian dan mikro yang digunakan
-    b. Pilih board sesuai dengan mikrokontroler yang akan dipakai
-    c. Gunakan Framework **Arduino**
+    1. Isi *Project Name* sesuai dengan rangkaian dan mikro yang digunakan
+    2. Pilih board sesuai dengan mikrokontroler yang akan dipakai
+    3. Gunakan Framework **Arduino**
 
 > [!NOTE]
+<<<<<<< HEAD
 > Sebenarnya, langkah ketiga itu untuk menginisialisasi file `platformio.ini`, sehingga tidak akan terlalu memengaruhi kode (kecuali untuk environment yang akan digunakan)
+=======
+> Sebenarnya, tiga langkah di atas berfungsi untuk menginisialisasi file `platformio.ini`, sehingga tidak akan terlalu memengaruhi kode (kecuali untuk environment yang akan digunakan)
+>>>>>>> 345528ca78a60c2f1ba5452d0d72ff0346736877
 4. Copy paste kode sesuai dengan rangkaian
 > [!WARNING]
 > teliti di baudrate
